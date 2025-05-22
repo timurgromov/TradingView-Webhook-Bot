@@ -6,17 +6,17 @@
 
 # TradingView Example Alert Message:
 # {
-# "key":"9T2q394M92", "telegram":"-1001298977502", "discord":"789842349670960670/BFeBBrCt-w2Z9RJ2wlH6TWUjM5bJuC29aJaJ5OQv9sE6zCKY_AlOxxFwRURkgEl852s3", "msg":"Long #{{ticker}} at `{{close}}`"
+# "key":"Best27Secret", "telegram":"-1002276646435", "msg":"Long #{{ticker}} at `{{close}}`"
 # }
 
 sec_key = (
-    ""  # Can be anything. Has to match with "key" in your TradingView alert message
+    "Best27Secret"  # Can be anything. Has to match with "key" in your TradingView alert message
 )
 
 # Telegram Settings
-send_telegram_alerts = False
-tg_token = ""  # Bot token. Get it from @Botfather
-channel = 0  # Channel ID (ex. -1001487568087)
+send_telegram_alerts = True
+tg_token = "7830398759:AAG2goB49HM_pJ4G1MkcQWJgcYBdFQ0FsZE"  # Bot token. Get it from @Botfather
+channel = -1002276646435  # Channel ID (ex. -1001487568087)
 
 # Discord Settings
 send_discord_alerts = False
